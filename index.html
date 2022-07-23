@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- meta tags -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- title tag -->
+    <title>College Shortlist Advice</title>
+
+    <!-- css tags -->
+    <link
+      rel="icon"
+      href="https://icon-library.com/images/college-icon-png/college-icon-png-0.jpg"
+      type="icon"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- nav bar -->
+    <header>
+      <div class="main">
+        <div class="logo">
+          <img src="public/assets/images/college.png" />
+        </div>
+        <ul>
+          <li><a href="3">Home</a></li>
+          <li><a href="3">Services</a></li>
+          <li><a href="3">Gallery</a></li>
+          <li><a href="3">About</a></li>
+          <li><a href="3">Contact</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <div id="container">
+      <!-- title -->
+      <div class="title">
+        <h1>COLLEGE SHORTLIST ADVICE</h1>
+      </div>
+
+      <!-- form -->
+      <div class="form">
+        <form id="form" name="theform">
+          <div class="box">
+            <!-- college_name_dropdown -->
+            <div class="mb-2">
+              <label class="label">COLLEGE NAME</label>
+              <select id="colleges" college="dropdown">
+                <option value="" disabled selected hidden>Choose One</option>
+              </select>
+            </div>
+
+            <!-- category_dropdown -->
+            <div class="mb-2">
+              <label class="label">CATEGORY</label>
+              <select id="categories" category="dropdown">
+                <option value="" disabled selected hidden>Choose One</option>
+              </select>
+            </div>
+
+            <!-- family_income_input -->
+            <div id="p1" class="mb-2">
+              <label class="label">FAMILY INCOME</label>
+              <input
+                type="text"
+                id="income"
+                value=""
+                placeholder="Enter your family income"
+                required
+              />
+            </div>
+
+            <!-- percentage_input -->
+            <div id="p2" class="mb-2">
+              <label class="label">XII PERCENTAGE (don't use % sign)</label>
+              <input
+                type="text"
+                id="Percentage"
+                value=""
+                placeholder="Enter your percentage"
+                required
+              />
+            </div>
+
+            <!-- submit_btn -->
+            <div class="button">
+              <input
+                type="submit"
+                type="button"
+                value="Submit"
+                class="btn"
+                id="submitbutton"
+                disabled="disabled"
+              />
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <footer>
+      <h5>(c) COPYRIGHT BY 2022</h5>
+    </footer>
+
+    <!-- script tag -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="js/index.js" type="module"></script>
+    <!-- <script src="js/base.js" type="module"></script> -->
+  </body>
+</html>

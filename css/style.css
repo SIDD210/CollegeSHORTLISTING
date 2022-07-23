@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+
+body {
+  background-color: rgb(165, 123, 220);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+select {
+  border: 1px solid #fff;
+  background-color: rgb(227, 229, 251);
+  color: black;
+}
+input {
+  border: 1px solid #fff;
+  background-color: rgb(227, 229, 251);
+  color: rgb(12, 9, 9);
+}
+::placeholder {
+  color: black;
+}
+ul {
+  float: right;
+  list-style-type: none;
+  margin-top: 25px;
+}
+ul li {
+  display: inline-block;
+}
+ul li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 20px;
+  border: 1px solid #fff;
+  transition: 0.6s ease;
+}
+ul li a:hover {
+  background-color: #fff;
+  color: black;
+}
+.logo img {
+  float: left;
+  width: 150px;
+  height: auto;
+}
+.main {
+  max-width: 1200px;
+  margin: auto;
+}
+.title {
+  font-size: 25px;
+  background-color: rgb(223, 207, 245);
+  position: absolute;
+  top: 19%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+form {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.logo img {
+  width: 100px;
+}
+.btn {
+  background-color: rgb(213, 189, 246);
+  border: 1px solid #fff;
+  padding: 10px 30px;
+  color: black;
+  text-decoration: none;
+  transition: 0.6s ease;
+}
+.box {
+  text-align: center;
+}
+.mb-2 {
+  margin-bottom: 42px;
+}
+.label {
+  margin-right: 16px;
+  font-size: 18px;
+}
+ul {
+  float: right;
+  list-style-type: none;
+  margin-top: 25px;
+}
+.logo img {
+  left: 20%;
+  float: left;
+  width: 100px;
+  height: auto;
+}
+footer {
+  text-align: center;
+  background-color: rgb(223, 207, 245);
+  color: black;
+  position: fixed;
+  padding: 3px 3px 0px 3px;
+  bottom: 0;
+  width: 100%;
+  height: 65px;
+}
+#tab {
+  display: block;
+  top: 35%;
+  left: 18%;
+  bottom: 5%;
+  text-align: center;
+  position: absolute;
+  margin: 10px 10px 0px 10px;
+  padding: 3px 3px 0px 3px;
+  font-size: medium;
+}
+th,
+td {
+  border: 1px solid black;
+  padding: 5px;
+}
+#title {
+  text-align: center;
+  background-color: rgb(223, 207, 245);
+  font-size: 22px;
+  position: absolute;
+  top: 21%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 3px 3px 0px 3px;
+}
